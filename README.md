@@ -36,7 +36,7 @@ One example of this that you can check out for yourself is if you go to Facebook
 
 ## MVC/MVVM
 
-You might have seen the terms MVC and MVVM being thrown around. These stand for Model-View-Controller and Model-View-ViewModel respectively. 
+You might have seen the terms MVC and MVVM being thrown around. These stand for Model-View-Controller and Model-View-ViewModel respectively.
 
 These are concepts for how we architect our software. We do this to promote separation of concerns. Separation of concerns is dividing our code into logical chunks, with each chunk addressing a separate concern. This allows us to create testable, reusable and scalable well designed code.
 
@@ -56,7 +56,7 @@ So for example, if you walked into a coffee bar and ordered a hot chocolate, you
 
 If we weren't using a single page application and instead the server was rendering the page for us, the barista would have simply thrown out the drink and remade it with marshmallows - what a waste!  
 
-If you've touched on MVC before, you might have learnt it a little differently. Not to worry! MVC in the frontend is slightly different, but the main concepts still apply!
+If you've touched on MVC before, you might have learned it a little differently. Not to worry! MVC in the frontend is slightly different, but the main concepts still apply!
 
 ### MVVM (Model-View-ViewModel)
 
@@ -74,7 +74,7 @@ The ViewModel is responsible for all view logic - changing the model data approp
 
 ## Data-binding
 
-Data-binding is the concept that allows us to easily keep our view and model synchronised without having to write excessive amounts of code whenever we would like to update either. This comes in two formats - one-way and two-way data-binding.
+Data-binding is the concept that allows us to easily keep our view and model synchronized without having to write excessive amounts of code whenever we would like to update either one. This comes in two formats - one-way and two-way data-binding.
 
 ### One-way data-binding
 
@@ -83,10 +83,10 @@ Imagine you have a form input, asking for the user's name. You've also got a `<h
 For example, you'd use one-way data-binding when you've got a search box - the user can type in their search query and the title can change to "Results for: {searchQuery}" - pretty cool!
 
 [Here's an example of one-way data-binding.](https://jsfiddle.net/6z6d5b7x/)
- 
-An easy way to visualize this is to go back to when we were receiving our drink from the barista. If the drink was one-way bound from the barista, the drink would always be updated and correct. However, the barista wouldn't be able to see the drink. If it got knocked over or was mouldy, the barista wouldn't have any idea!
 
-### Two-way data-binding 
+An easy way to visualize this is to go back to when we were receiving our drink from the barista. If the drink was one-way bound from the barista, the drink would always be updated and correct. However, the barista wouldn't be able to see the drink. If it got knocked over or was moldy, the barista wouldn't have any idea!
+
+### Two-way data-binding
 
 Two-way data-binding occurs when you bind your model value to an element that can both change and display the value of the model (such as an input).
 
@@ -102,7 +102,7 @@ Going back to our barista - with two-way data-binding, our barista can now see e
 
 Two-way data-binding has a one-directional flow of data which ensures that the View and the Model data is always synchronized.
 
-In the above example our template compiles to become our View, which is a representation of the Model data. The View can then change our Model (for instance, an `<input />` being updated), which then updates our View. Model changes drive View changes and View changes drive Model changes. This keeps everything always synchronized. 
+In the above example our template compiles to become our View, which is a representation of the Model data. The View can then change our Model (for instance, an `<input />` being updated), which then updates our View. Model changes drive View changes and View changes drive Model changes. This keeps everything always synchronized.
 
 ## Resources
 
